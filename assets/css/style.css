@@ -49,7 +49,19 @@ table {
 
 h1 {
     text-align: center;
+    font-style: impact;
+    font-size: 150px;
+    color: White;
+    text-shadow: #000 0px 0px 20px;
 }
 h2{
     text-align: center;
+    font-style: impact;
+    font-size: 75px;
+    color: White;
+    text-shadow: #000 0px 0px 10px;
+}
+#header {
+    height: 225px;
+    background-image: url(../images/Landmarks.jpg)
 }
