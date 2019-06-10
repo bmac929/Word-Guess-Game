@@ -46,6 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+    body{
+        background-image: url(../images/Body.jpg)
+    }
 
 h1 {
     text-align: center;
@@ -63,5 +66,31 @@ h2{
 }
 #header {
     height: 225px;
-    background-image: url(../images/Landmarks.jpg)
+    background-image: url(../images/Landmarks.jpg);
+    margin-bottom: 20px;
+}
+#container{
+    width: 960px;
+    margin: auto;
+    height: 450px;
+    padding-top: 10px;
+}
+#picContainer{
+    width: 440px;
+    margin: 20px;
+    height: 410px;
+    background-color: white;
+    float: left;
+
+}
+#guessContainer{
+    width: 440px;
+    margin: 20px;
+    height: 410px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+h3{
+    font-size: 24px;
 }
